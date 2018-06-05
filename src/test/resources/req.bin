@@ -1,0 +1,23 @@
+E@@0x@Tf1x
+3:3:PROPFIND /alfresco/aos/Sites/swsdp/documentLibrary/Budget%20Files/ HTTP/1.1
+Depth: 1
+Content-Type: text/xml; charset=utf-8
+Content-Length: 210
+Host: localhost:8080
+Connection: Keep-Alive
+User-Agent: Cyberduck/6.3.2.27291 (Mac OS X/10.13.4) (x86_64)
+Cookie: JSESSIONID=413BAC7A73511A54ADCAF34055FCBA00
+Accept-Encoding: gzip,deflate
+Authorization: Basic 1231111222GutenMorgen
+
+<propfind xmlns="DAV:">
+   <prop>
+      <creationdate />
+      <displayname />
+      <getcontentlength />
+      <getcontenttype />
+      <getetag />
+      <getlastmodified />
+      <resourcetype />
+   </prop>
+</propfind>
