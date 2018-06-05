@@ -21,7 +21,7 @@ Connection: Keep-Alive
 User-Agent: Cyberduck/6.3.2.27291 (Mac OS X/10.13.4) (x86_64)
 Cookie: JSESSIONID=413BAC7A73511A54ADCAF34055FCBA00
 Accept-Encoding: gzip,deflate
-Authorization: Basic YWRtaW46YWRtaW4=
+Authorization: Basic 1231111222GutenMorgen
 """,
             body =
             """<?xml version="1.0" encoding="UTF-8"?>
