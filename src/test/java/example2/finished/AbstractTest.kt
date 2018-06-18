@@ -1,4 +1,4 @@
-package org.alfresco.module.aosmodule.kotlin
+package example2.finished
 
 import org.xml.sax.InputSource
 import javax.xml.parsers.DocumentBuilderFactory

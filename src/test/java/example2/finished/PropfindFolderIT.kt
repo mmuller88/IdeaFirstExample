@@ -1,4 +1,4 @@
-package org.alfresco.module.aosmodule.kotlin
+package example2.finished
 
 import khttp.responses.Response
 import org.junit.Assert.assertEquals
