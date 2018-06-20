@@ -27,6 +27,58 @@ data class AOSResponse(val header: String, val body: String)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//class AOSRequest(val method: String, val url: String, val header: String, val body: String){
+//
+//    fun equals() { /** ... */ }
+//    override fun hashCode(): Int { /** ... */ return 0 }
+//    override fun toString(): String { /** ... */ return "bla"}
+//    fun copy() { /** ... */ }
+//
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 val aosReq = AOSRequest(
         method = "PROPFIND",
         url = "http://localhost:8080/alfresco/aos/Sites/swsdp/documentLibrary/Budget%20Files/",
@@ -58,26 +110,6 @@ Authorization: Basic 1231111222GutenMorgen
    </prop>
 </propfind>
 """)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-val aosRequest = AOSRequest("POST", "http://", "h1: v1", "I have a nice Body")
-val aosResponse = AOSResponse("Accept: txt", "body stuff")
-
 
 fun main(args : Array<String>) {
     println("")
